@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Snenko_Holidayapi>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Snenko_Holidayapi>
+  </modules>
+</config>

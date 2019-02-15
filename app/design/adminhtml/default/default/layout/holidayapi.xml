@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <holidayapi_adminhtml_holidayapi_index>
+	<reference name="content">
+	  <block type="holidayapi/adminhtml_holidayapi" name="holidayapi" />
+	</reference>
+  </holidayapi_adminhtml_holidayapi_index>
+</layout>

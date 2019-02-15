@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<snenko translate="label" module="holidayapi">
+            <label>Snenko</label>
+            <sort_order>777</sort_order>
+        </snenko>
+	  </tabs>
+	  <sections>
+		<holidayapi  translate="label" module="holidayapi">                    
+		<label>Holidayapi</label>
+		<tab>snenko</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>10</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <web translate="label"> 
+					  <label>Web</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>10</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <test_api_key translate="label">
+                            <label>Test API Key</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </test_api_key>
+                          <live_api_key translate="label">
+                            <label>Live API Key</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </live_api_key>
+					   </fields>
+					   </web>
+					</groups>
+		</holidayapi>
+	  </sections>
+</config>
